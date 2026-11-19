@@ -16,4 +16,5 @@ class DetailViewModel(
     private val repositoriSiswa: RepositoriSiswa
 ) : ViewModel() {
 
-}
+    private val idSiswa: Int = checkNotNull(savedStateHandle[DestinasiDetailSiswa.itemIdArg])
+
