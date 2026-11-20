@@ -7,7 +7,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pertemuan9.repositori.RepositoriSiswa
-import com.example.pertemuan9.uicontroller.DestinasiDeatilSiswa
+import com.example.pertemuan9.uicontroller.DestinasiDetailSiswa
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
